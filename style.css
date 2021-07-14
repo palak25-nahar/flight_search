@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.parent {
+    width: 100vw;
+    height: 100vh;
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 70px;
+    background-color:orange;
+    display: flex;
+    align-items: center;
+}
+
+.headermini {
+        height: 70px;
+        /*background-color: green;*/
+        border: 1px solid black;
+}
+
+.align {
+    flex: 5;
+    align-items: flex-end; 
+}
+
+.content {
+    flex: 1;
+    /*background-color: blue;*/
+    display: flex;
+}
+
+.left {
+    width: 200px;
+    /*background-color: red;*/
+    border: 1px solid black;
+}
+
+.right {
+    flex: 4;
+    /*background-color: aqua;*/
+    border: 1px solid black;
+}
+
+.form, .slidercontainer {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.form input,.form select {
+    margin: 5px 0px;
+}
+.input,.output {
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.button {
+    width: 100px;
+    background-color: orange;
+}
+
+.img1 {
+    box-align: "right";
+    width:200px;
+}
+
+.form1 {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.column {
+    flex: 2;
+    align-items: flex-end;
+}
+
+.radio {
+    background-color: orange;
+}
+
+.outbox {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.rightheader {
+        display: flex;
+        border: 1px solid black;
+        border-radius: 4px;
+        padding: 10px;
+        margin: 10px;
+        justify-content: space-between;
+}
+
+.detailsbox {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0px 10px;
+}
+
+.imgbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0px 20px;
+}
+
+.flightdetail{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    padding: 10px 0px;
+    /* flex: 1; */
+    width: 100%;
+}
+
+.onewaydet {
+    margin-right: 10px;
+}
+
+.returndet {
+    padding: 0;
+}
+.img {
+    text-align: center;
+}
+.priceofdetail {
+    padding: 10px 0px;
+}
+
+.rangestyle {
+    width: 100%;
+}
+
+.rangestyle {
+    -webkit-appearance: none;
+}
+
+.rangestyle::-webkit-slider-runnable-track {
+    height: .50em;
+    background: orange;
+    border: none;
+    border-radius: 3px;
+}
+
+.rangestyle::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 1.1em;
+    width: 1.1em;
+    border-radius: 50%;
+    background: orange;
+    margin-top: -4px;
+}
+
+.rangestyle:focus {
+    outline: none;
+}
+
+.rangetext {
+    padding: 0px;
+    margin: 10px 0px;
+    border: none;
+}
+
+.datefligt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0px 20px;
+}
